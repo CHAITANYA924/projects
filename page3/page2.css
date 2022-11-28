@@ -1,0 +1,89 @@
+#{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/beach.jpg);
+    background-position: center;
+    background-size: cover; 
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+nav h2{
+    color: gold;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+span{
+    color: whitesmoke;
+}
+
+
+
+
+
+nav ul {
+ width: 70%;
+ text-align: end;
+}
+nav ul li{
+    display: inline-block;
+    padding: 30px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    border:  2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+}
+nav ul li a:hover{
+    background-color: #fff;
+    color: black;
+}
+button{
+    background-color: blueviolet;
+    color:#fff;
+    font-size: 20px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+   
+
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+.second{
+    width: 70%;
+    margin: 200px auto auto 250px;
+    text-align: center;
+}
+.second h1{
+    color: white;
+    font-size: 50px;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+ .button:hover{
+    color:black;
+    background-color: white;
+    border: none;
+}

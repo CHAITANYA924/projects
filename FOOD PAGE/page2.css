@@ -1,0 +1,67 @@
+#{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.container{
+   min-height: 100vh;
+     width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/firstfood.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  
+
+}
+.content h1{
+    color: white;
+    font-size: 50px;;
+
+}
+.content p{
+    color: white;
+    font-size: 25px;
+}
+.content form input{
+    display: block;
+}
+input{
+    padding-right: 150px;
+    height: 30px;
+    position:relative;
+    left: 150px;
+    border: none;
+    border-radius: 15px;
+    
+}
+button{
+    position:relative;
+    left: 220px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 5px 40px;
+    background-color: darkcyan;
+    color: white;
+
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    color: white;
+    background-color: green;
+}
+.second{
+   display: flex;
+   margin-top: 20px;
+   margin-left: 30px;
+padding: 0 50px;
+}

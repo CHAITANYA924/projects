@@ -1,0 +1,92 @@
+#{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    min-height: 100vh;
+ padding: 50px 50px ;
+  margin: 2px solid black;
+}
+header{
+    height: min-content;
+    width: 90%;
+}
+header .line{
+    display: inline-block;
+
+}
+span{
+    padding-left: 60%;
+}
+hr{
+height: 2px;
+background-color: black;
+}
+.hedline{
+    font-size: 45px;
+}
+.color{
+    background-color: red;
+  width: 20%;
+  padding: 10px;
+   
+}
+.section2{
+    width: 90%;
+    display: flex;
+    text-align: justify;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+.second-div1{
+    margin-right: 20px;
+}
+.section3{
+    width: 90%;
+    display: flex;
+    text-align: justify;
+    padding-right: 20px;
+}
+.section3-div1{
+    padding-right: 20px;
+}
+.section3-div2{
+    padding-right: 20px;
+}
+
+.red{
+    color: red;
+}
+footer{
+    height: min-content;
+    width: 90%;
+}
+footer .line{
+    display: inline-block;
+
+}
+span{
+    padding-left: 50%;
+}
+.color1{
+    background-color: red;
+    padding: 10px;
+    width: fit-content;
+}
+.color3{
+    background-color: red;
+    padding: 10px;
+  width: fit-content;
+}
+.img{
+    display: flex;
+    position: relative;
+   top: 80px;
+   left: 30px;
+}
+   

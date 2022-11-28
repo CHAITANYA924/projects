@@ -1,0 +1,35 @@
+#{ 
+    margin:0;
+    border: 0;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+sup{
+    color: red;
+}
+.purchase {
+background-color: #8B7E74;
+}
+.compay-overall{
+    background-color: #8B7E74;
+
+}
+.Buy{
+    background-color: #8B7E74; 
+}
+.Recomend{
+    background-color: #8B7E74; 
+}
+.email{
+    padding-right: 140px;
+}
+.last{
+    position: relative;
+    left: 150px;
+
+}
+.first{
+    position: relative;
+    bottom: 15px;;
+}
