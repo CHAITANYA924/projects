@@ -1,0 +1,202 @@
+.header{
+    background-color: black;
+    color: white;
+    height: 400px;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.details{
+    width: 1000px;
+    margin: auto;
+ 
+}
+
+
+.details1 img{
+    float: right;
+    padding-left: 30px;
+}
+.details2{
+    text-align: justify;
+}
+.details3{
+    text-align: justify;
+}
+.buttons{
+    margin-top: 230px;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons1{
+    color: black;
+    margin-right: 10px;
+    border: none;
+    padding: 10px;
+
+}
+.buttons1 i{
+    padding-right:5px;
+}
+.buttons2{
+background-color: red;
+    margin-right: 10px;
+    border: none;
+    color: aliceblue;
+
+}
+.buttons2 i{
+    padding-right:5px;
+    color: white;
+    padding: 10px;
+}
+.buttons3{
+   background-color: orange;
+    margin-right: 10px;
+    border: none;
+    color: white;
+padding: 10px;
+}
+.buttons3 i{
+    padding-right:5px;
+}
+.middle{
+    height: 200px;
+    background-color: black;
+    color: white;
+    display: flex;
+   align-items: center;
+    justify-content: center;
+}
+.awards{
+ height: 200px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.awards hr{
+    width: 10%;
+   height: 2px;
+   background-color: black;
+}
+.four{
+    width: 1000px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 10px;
+    margin: auto;
+   display: flex;
+   flex-direction: row;
+   flex: 50%;
+  
+   
+
+}
+.box{
+
+   min-width:250px;
+    height: 150px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    
+        
+    }
+    @media(max-width:500px){
+        .four{
+            flex-direction: column;
+        }
+    }
+       
+   
+   
+
+.box h2{
+    font-size: 20px;
+}
+.box p{
+    font-size: 18px;
+}
+.poem{
+width: 1000px;
+margin: auto;
+margin-top: 100px;
+display: flex;
+flex-direction: row;
+
+}
+.poetry{
+    flex: 50%;
+    line-height: 2;
+}
+.songs{
+    flex: 50%;
+    line-height: 2;
+}
+@media(max-width:500px) {
+    .poem{
+        flex-direction: column;
+    }
+}
+.hp hr{
+width: 20%;
+background-color: black;
+}
+.hp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hs hr{
+    width: 10%;
+    background-color: black;
+}
+.hs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+ 
+}
+.last1{
+    width: 300px;
+    height: 150px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+ border-right: 2px solid white;
+ margin-right: 20px;
+  
+}
+.last2{
+    width: 300px;
+    height: 150px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+border-right: 2px solid white;
+ text-align: center;
+ margin-right: 20px;
+}
+.last3{
+    width: 300px;
+    height: 150px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+
+ text-align: center;
+}
+span{
+    color: blue;
+}

@@ -1,0 +1,48 @@
+#{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 10px;
+    padding: 10px;
+    min-height: 100vh;
+    width: 100%;
+    background-color: aqua;
+    position: relative;
+
+}
+
+.box th {
+    border: 2px solid black;
+    background-color: aquamarine;
+}
+.box  td{
+background-color: aquamarine;
+border: 1px solid black;
+
+}
+.morce img{
+    margin-right: 60px;
+    border-radius:100%;
+}
+.html img{
+    margin-right: 60px;
+    border-radius:20%;
+}
+footer{
+    width: 20%;
+    height:30px;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 20px;
+background-color: antiquewhite;
+
+position: absolute;
+bottom: 200px;
+right: 50px;
+}
